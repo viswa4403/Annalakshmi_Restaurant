@@ -1,0 +1,380 @@
+.gallery-top .swiper-wrapper {
+  text-align: center;
+}
+
+.work-carsouel.crv .work-crsol.swiper {
+  overflow: unset;
+}
+
+.skill-progress span {
+  display: none!important;
+}
+
+.modal-video {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.react-slidedown {
+  overflow: hidden;
+  transition-duration: 0.4s!important;
+}
+
+.about-main{   
+  background-image: url(../../public/img/aboubg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-position: center;
+}
+
+.founder-img{
+  width: 40%;
+  padding: 2rem 0;
+}
+
+
+
+
+
+.bg-layer{
+  background-image: url(../../public/img/aboutbg-layer.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.test-text-one{
+  font-size: 2rem;
+  color: #9B1915;
+  
+}
+
+
+
+
+/* font */
+/* font */
+/* font */
+
+
+@font-face {
+  font-family: GilroyExtra;
+  src: url(../../public/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+@font-face {
+  font-family: GilroyMedium;
+  src: url(../../public/fonts/Gilroy-FREE/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: Saman;
+  src: url(../../public/fonts/SAMAN___.TTF);
+}
+
+@font-face {
+  font-family: Geometric;
+  src: url(../../public/fonts/geometric.ttf);
+}
+
+.gilroyEB{
+  font-family: GilroyExtra;
+}
+.gilroyM{
+  font-family: GilroyMedium;
+}
+
+.saman{
+  font-family: saman;
+  font-weight: 500;
+}
+
+
+/* font */
+/* font */
+/* font */
+
+
+
+@media only screen and (max-width: 1000px) {
+  .logo--in{
+    width: 150px;
+  }
+  
+}
+
+
+/* header */
+/* header */
+/* header */
+/* header */
+
+
+.header-main{
+  background-image: url(/img/annalakmainbg.png);
+  min-height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1450px) {
+  .header-main{
+    background-position: 85%;
+    justify-content: center;
+    justify-content: start;
+  }
+  .header-main-img{
+    margin-top: 11rem;
+  }
+}
+
+.header-main-img{
+  width: 70%;
+}
+.header-main-title{
+  margin-left: 1.5rem;
+  font-family: "Geometric", sans-serif;
+  color: #fff;
+}
+.header-main-btn{
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background-color: #971A1F;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: "GilroyExtra", sans-serif;
+}
+.header-main-sbtn{
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background-color: #971A1F;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: "GilroyExtra", sans-serif;
+}
+
+
+/* header */
+/* header */
+/* header */
+/* header */
+
+
+/* contact */
+/* contact */
+/* contact */
+
+
+.contact-btn{
+  background-color: #971A1F;
+  color: #fff;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  font-family: "GilroyMedium", sans-serif;
+  padding: 8px 20px;
+  z-index: 50;
+}
+
+.contact-btn:hover{
+  background-color: #971A1F;
+  color: #fff;
+}
+
+@media only screen and (max-width: 450px) {
+  .textmenuwidth{
+    max-width: 200px;
+  }
+.footer-links {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.footer-address {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.footer-map {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .food-card{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+.bulk-order{
+  margin-top:40px;
+}
+}
+.MealTry{
+  text-align: center;
+     font-size: 51px;
+      
+}
+.MealTry-content{
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+
+
+}
+/* .food-card {
+  border: 1px solid #ddd;          
+  padding: 20px;  
+  width: 400px;               
+  border-radius: 5px;            
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+  background-color: #fff;
+  margin-bottom: 20px;
+} */
+
+
+
+.col-lg-6.col-md-12 {
+  display: flex;
+  justify-content: center;  
+}
+
+.food-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 100%;             
+  max-width: 400px;       
+}
+ 
+.food-card h4 {
+  font-weight: 600;
+ 
+  margin-bottom: 15px;
+}
+
+.food-list {
+  list-style: none; 
+  padding: 0px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.food-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.food-list li .icon {
+  color: #b22222;  
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.nav-link1{
+  font-weight:500;
+  padding: 15px 7px;
+  margin: 10px 15px;
+}
+
+
+.gallery-slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .gallery-slide img {
+                width: 100%;
+                height: auto;
+                border-radius: 12px;
+                transition: transform 0.5s ease, box-shadow 0.5s ease;
+              }
+              
+              .swiper-slide-active img {
+                transform: scale(1.1);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+              }
+
+
+.Hall-img {
+  max-width: 45%;
+  margin-top: 0px;
+  height: 100%;
+}
+.Hall-img1{
+    max-width: 85%;
+  margin-top: 100px;
+  height: 80%;
+}
+
+.About-hall {
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  line-height: 37px;
+  font-family: "Gilroy-Medium";
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.contact-card {
+  background: #fff;
+  flex: 1 1 250px;
+  max-width: 377px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background-color: #a12020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orders {
+  font-size: 28px;
+  font-family: "Gilroy-Medium";
+}
+.cat-enquiry{
+   font-size: 42px;
+  font-family: "Gilroy-Black";
+}
+.gallery{
+   font-size: 51px;
+  font-family: "Gilroy-Black";
+}
+.cat-package{
+   font-size: 52px;
+  font-family: "Gilroy-Black";
+}
+
+.order-icons{
+  top: -30px;
+}

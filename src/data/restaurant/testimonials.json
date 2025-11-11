@@ -1,0 +1,32 @@
+[{
+        "comment": "his place is truly underrated. The quality of the food and the level of service far exceed what the current Google reviews suggest. Anyone who’s hesitant because of the ratings should definitely give it a try — you might be pleasantly surprised",
+        "image": "img/Male new.png",
+        "name": "A V VISWA",
+        "position": "Customer"
+    },
+    {
+        "comment": "Visited Annalakshmi today for lunch. Nice ambience, cordial staff, amazing hospitality and delicious food. Pre booking suggested but we were lucky today as we could get a table within 5 minutes of waiting time. Tasty food and very attentive service",
+        "image": "img/Female.png",
+        "name": "Malini Ramanathan",
+        "position": "Customer"
+    },
+    {
+        "comment": "This is absolutely a cool place, a peaceful atmosphere, the staff attend to you and recommending as per our choice of preparation, would ask you your preference in case additional if any. We got the dishes on the table, exactly what we asked. I started coming regularly every time. It’s like a celebration to my taste buds. The restaurant is very good with North Indian and South Indian dishes. I would absolutely recommend this place",
+        "image": "img/Male new.png",
+        "name": "M Dharmendra Kumar",
+        "position": "Customer"
+    },
+    {
+        "comment": "The food felt like home, so cozy. Our faces lit with smile and joy as we took every bite. The jackfruit payasam and the capsicum arachu vitta sambar was the highlight of the meal. Would love to come back",
+        "image": "img/Female.png",
+        "name": "Sowmya Sundar",
+        "position": "Customer"
+    },
+    {
+        "comment": "Starts with amazing music on the background with the manager Drwaraknath doing a great job at hospitality. He took special care on explaining details of all varieties and every item served with great perfection right from iddiyapam, to thokku dosa, paniyaram and followed by fresh filter coffee. Appreciate the small tasters also provided and was a perfect exit to Coimbatore. Looking forward to coming back again here",
+        "image": "img/Female.png",
+        "name": "Shobhana Thakker",
+        "position": "Customer"
+    }
+  
+]
