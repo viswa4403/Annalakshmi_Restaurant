@@ -18,6 +18,7 @@ import {
 } from "react-icons/fa";
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa6";
+import Image from "next/image";
 
 // Register Swiper modules (for v6–v8)
 SwiperCore.use([Navigation, Pagination, Autoplay]);
@@ -114,6 +115,7 @@ const CateringPage = () => {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       >
+      <Image></Image>
         <main className="position-re">
           <section className="container text-center py-5 mt-50">
             <h2
@@ -184,7 +186,7 @@ const CateringPage = () => {
             <div className="row g-4 justify-content-center">
               <div className="col-md-4">
                 <div className="shadow-sm h-100">
-                  <img
+                  <Image
                     src="/img/Frame 702.png"
                     className="card-img-top"
                     alt="Package 1"
@@ -193,7 +195,7 @@ const CateringPage = () => {
               </div>
               <div className="col-md-4">
                 <div className="shadow-sm h-100">
-                  <img
+                  <Image
                     src="/img/Frame 769.png"
                     className="card-img-top"
                     alt="Package 2"
@@ -202,7 +204,7 @@ const CateringPage = () => {
               </div>
               <div className="col-md-4">
                 <div className=" shadow-sm h-100">
-                  <img
+                  <Image
                     src="/img/Frame 770.png"
                     className="card-img-top"
                     alt="Package 3"
@@ -233,7 +235,7 @@ const CateringPage = () => {
               ].map((src, index) => (
                 <SwiperSlide key={index}>
                   <div className="gallery-slide">
-                    <img src={src} alt={`Gallery ${index + 1}`} />
+                    <Image src={src} alt={`Gallery ${index + 1}`} />
                   </div>
                 </SwiperSlide>
               ))}
@@ -370,7 +372,7 @@ const CateringPage = () => {
               </div>
 
               <div className="col-md-6 text-center">
-                <img
+                <Image
                   src="/img/Rectangle 1731.png"
                   className="img-fluid rounded shadow-sm"
                   alt="Quote"
