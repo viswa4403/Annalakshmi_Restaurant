@@ -20,7 +20,6 @@ import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa6";
 import Image from "next/image";
 
-// Register Swiper modules (for v6–v8)
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const CateringPage = () => {
@@ -115,7 +114,6 @@ const CateringPage = () => {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       >
-      <Image></Image>
         <main className="position-re">
           <section className="container text-center py-5 mt-50">
             <h2

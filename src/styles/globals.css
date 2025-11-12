@@ -135,6 +135,33 @@
   }
 }
 
+.leaf-img {
+          position: absolute;
+          bottom: 0;
+          left: 305px;
+          width: 55px;
+          height: 80px;
+          top: 700px; /* default desktop */
+        }
+
+      
+        @media (max-width: 1024px) {
+          .leaf-img {
+            top: auto;
+          }
+        }
+
+    
+        @media (max-width: 768px) {
+          .leaf-img {
+            top: 540px; /* remove top */
+            left: 30%; /* optional: center align */
+            transform: translateX(-50%);
+             width: 55px;
+          height: 80px;
+          }
+        }
+
 .header-main-img{
   width: 70%;
 }

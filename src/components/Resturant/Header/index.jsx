@@ -51,6 +51,7 @@ import NightsStayIcon from "@mui/icons-material/NightsStay";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { NoEncryption } from "@mui/icons-material";
 import Router from "next/router";
+import Image from "next/image";
 
 // const Fade = React.forwardRef(function Fade(props, ref) {
 //   const { in: open, children, onEnter, onExited, ...other } = props;
@@ -358,47 +359,14 @@ function Header() {
     //   </div>
 
     // </header>
-    <header
-      style={{ paddingTop: 80,  }}
-      data-scroll-index="0"
-    >
+    <header style={{ paddingTop: 80 }} data-scroll-index="0">
       <div className="header-main">
         <Container>
           <img className="header-main-img" src="img/annalogo1.png" />
         </Container>
 
-        
         <img src="img/leafimg.png" alt="Leaf" className="leaf-img" />
       </div>
-
-      <style jsx>{`
-        .leaf-img {
-          position: absolute;
-          bottom: 0;
-          left: 305px;
-          width: 55px;
-          height: 80px;
-          top: 700px; /* default desktop */
-        }
-
-      
-        @media (max-width: 1024px) {
-          .leaf-img {
-            top: auto;
-          }
-        }
-
-    
-        @media (max-width: 768px) {
-          .leaf-img {
-            top: 540px; /* remove top */
-            left: 30%; /* optional: center align */
-            transform: translateX(-50%);
-             width: 55px;
-          height: 80px;
-          }
-        }
-      `}</style>
     </header>
   );
 }
